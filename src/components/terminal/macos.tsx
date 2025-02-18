@@ -1,6 +1,6 @@
 "use client";
 
-import React, { useEffect } from "react";
+import React from "react";
 import { commands } from "@/utils/commands";
 import { MacOsTerminal } from "./terminalStyles";
 

@@ -1,18 +1,18 @@
-export const translations: any = [
-    { key: "BOOTING", en: "Booting up", es: "Inicializando" },
-    { key: "DONE", en: "DONE", es: "Listo" },
-    {
-      key: "DETECTING_OS",
-      en: "Detecting OS",
-      es: "Detectando Sistema operativo",
-    },
-    { key: "DETECTED_OS", en: "OS Detected", es: "Sistema operativo detectado" },
-    { key: "DETECTING_LANG", en: "Detecting Language", es: "Detectando idioma" },
-    { key: "DETECTED_LANG", en: "Language Detected", es: "Idioma detectado" },
-    { key: "REDIRECT", en: "Redirecting", es: "Redireccionando" },
-    {
-      key: "BASIC_INFO",
-      en: `
+export const translations: object[] = [
+  { key: "BOOTING", en: "Booting up", es: "Inicializando" },
+  { key: "DONE", en: "DONE", es: "Listo" },
+  {
+    key: "DETECTING_OS",
+    en: "Detecting OS",
+    es: "Detectando Sistema operativo",
+  },
+  { key: "DETECTED_OS", en: "OS Detected", es: "Sistema operativo detectado" },
+  { key: "DETECTING_LANG", en: "Detecting Language", es: "Detectando idioma" },
+  { key: "DETECTED_LANG", en: "Language Detected", es: "Idioma detectado" },
+  { key: "REDIRECT", en: "Redirecting", es: "Redireccionando" },
+  {
+    key: "BASIC_INFO",
+    en: `
       Name: Matias Emanuel
       Lastname: Rivas
       Age: 30
@@ -21,7 +21,7 @@ export const translations: any = [
       From: Santa Rosa, La Pampa, Argentina
       Living: Buenos Aires, Argentina
      `,
-      es: `
+    es: `
       Nombre: Matias Emanuel
       Apellido: Rivas
       Edad: 30
@@ -30,10 +30,10 @@ export const translations: any = [
       De: Santa Rosa, La Pampa, Argentina
       Viviendo en: Buenos Aires, Argentina
      `,
-    },
-    {
-      key: "TECH_STACK",
-      en: `
+  },
+  {
+    key: "TECH_STACK",
+    en: `
           * FrontEnd:
               ** Javascript:
                   *** ES6 (ECMAScript 6)
@@ -50,7 +50,7 @@ export const translations: any = [
           * CSS3/SCSS
           * Git
        `,
-      es: `
+    es: `
           * FrontEnd:
               ** Javascript:
                   *** ES6 (ECMAScript 6)
@@ -67,10 +67,10 @@ export const translations: any = [
           * CSS3/SCSS
           * Git
        `,
-    },
-    {
-      key: "JOBS",
-      en: `
+  },
+  {
+    key: "JOBS",
+    en: `
           * 2020-Present: AppDirect(www.appdirect.com)
           * 2019-Present: BTCJ :: Estudiar (estudiar.btcj.com.ar) [Side project]
           * 2019-2020: EcomExperts(www.ecomexperts.com)
@@ -78,7 +78,7 @@ export const translations: any = [
           * 2017: Grifo creativo(www.grifocreativo.com)
           * 2014-2017: Mrivas Freelancer
           `,
-      es: `
+    es: `
           * 2020-Actualidad: AppDirect(www.appdirect.com)
           * 2019-Actualidad: BTCJ :: Estudiar (estudiar.btcj.com.ar) [Part time]
           * 2019-2020: EcomExperts(www.ecomexperts.com)
@@ -86,10 +86,10 @@ export const translations: any = [
           * 2017: Grifo creativo(www.grifocreativo.com)
           * 2014-2017: Mrivas Freelancer
           `,
-    },
-    {
-      key: "HISTORY",
-      en: `
+  },
+  {
+    key: "HISTORY",
+    en: `
       Started my journey on 2010 in General Pico, La pampa, Argentina attending the
       Systems Engineering University (https://www.ing.unlpam.edu.ar/).
       From the scratch I started using LINUX (My first Linux SO was Lubuntu,
@@ -129,7 +129,7 @@ export const translations: any = [
       I started working on BTCJ's Estudiar project (estudiar.btcj.com.ar)
       That contains ReactJS (with Bootsrap css) and NodeJS
   `,
-      es: `
+    es: `
           Comencé mi viaje en 2010 en General Pico, La Pampa, Argentina asistiendo al
           Universidad de Ingeniería de Sistemas (https://www.ing.unlpam.edu.ar/).
           Desde cero comencé a usar LINUX (Mi primer SO de Linux fue Lubuntu,
@@ -170,198 +170,198 @@ export const translations: any = [
           Empecé a trabajar en el proyecto Estudiar de BTCJ (estudiar.btcj.com.ar)
           Eso contiene ReactJS (con Bootsrap css) y NodeJS
   `,
-    },
-  
-    {
-      key: "LS",
-      en: "Mmm what are you trying to do?",
-      es: "Mmm qué estás tratando de hacer ?",
-    },
-    {
-      key: "CD",
-      en: "You should do that on your OWN terminal",
-      es: "Podés intentar eso en tu propia terminal :)",
-    },
-    {
-      key: "RM",
-      en: "Deleting software... JK you can't run that here :)",
-      es: "Eliminando software... Chiste, no podés correr ese comando acá :)",
-    },
-    { key: "CP", en: "Nothing here to copy", es: "Nada para copiar aquí" },
-    {
-      key: "TAIL",
-      en: "Please, don't",
-      es: "Por favor, no.",
-    },
-    { key: "CAT", en: "Sure, here you go: 😺", es: "Ahi va: 😺" },
-    { key: "MV", en: "Nothing here to move", es: "Nada para mover aquí" },
-    {
-      key: "TOP",
-      en: "The only important process here is my the recruitment process :)",
-      es: "El único proceso importante aquí es mi proceso de contratación :)",
-    },
-  
-    {
-      key: "BACK_COMMAND",
-      en: "Go to main screen",
-      es: "Volver a la pantalla principal",
-    },
-    {
-      key: "MACOS_COMMAND",
-      en: "Go to macos terminal",
-      es: "Ir a una terminal de macos",
-    },
-    {
-      key: "WINDOWS_COMMAND",
-      en: "Go to windows terminal",
-      es: "Ir a una terminal de windows",
-    },
-    {
-      key: "LINUX_COMMAND",
-      en: "Go to linux terminal",
-      es: "Ir a una terminal de linux",
-    },
-    {
-      key: "BASIC_COMMAND",
-      en: "Displays my basic information",
-      es: "Mustra mi inforamción básica",
-    },
-    {
-      key: "JOBS_COMMAND",
-      en: "Displays my profesional carreer information",
-      es: "Mustra mi carrera profesional",
-    },
-    {
-      key: "HISTORY_COMMAND",
-      en: "Get to know me a little bit better :)",
-      es: "Conozcanme un poco mejor :)",
-    },
-    { key: "TECHSTACK_COMMAND", en: "My tech stack", es: "Mi stack tecnologico" },
-    {
-      key: "RESUME_COMMAND",
-      en: "Download my resume (CV)",
-      es: "Descargar mi CV",
-    },
-    {
-      key: "EXIT_COMMAND",
-      en: "You had your fun, now it's time to go",
-      es: "Ya te divertiste, ahora es tiempo que te vayas",
-    },
-    {
-      key: "HELP_COMMAND",
-      en: "Type help to get started",
-      es: "Escriba help y presione enter para comenzar",
-    },
-  
-    {
-      key: "TAIL_COMMAND",
-      en: "Outputs the last part of files",
-      es: "Muestra la última parte de los archivos",
-    },
-    {
-      key: "TOP_COMMAND",
-      en: "Print system usage and top resource hogs",
-      es: "Uso del sistema de impresión y acaparadores de recursos superiores",
-    },
-    {
-      key: "CAT_COMMAND",
-      en: "Reads data from the file and gives their content as output",
-      es: "Lee los datos del archivo y da su contenido como salida",
-    },
-    {
-      key: "LS_COMMAND",
-      en: "Lists files in current directory",
-      es: "Enumera archivos en el directorio actual",
-    },
-    { key: "CD_COMMAND", en: "Change directory", es: "Cambio de directorio" },
-    {
-      key: "RM_COMMAND",
-      en: "Remove or delete file",
-      es: "Eliminar o eliminar archivo",
-    },
-    { key: "CP_COMMAND", en: "Copy files", es: "Copiar archivos" },
-    {
-      key: "MV_COMMAND",
-      en: "Move or rename files",
-      es: "Mover o cambiar el nombre de archivos",
-    },
-  
-    {
-      key: "SHOW",
-      en: "	Show the msg",
-      es: "Muestra el mensaje",
-    },
-    {
-      key: "CLEAR",
-      en: "Clear the screen",
-      es: "Limpia la pantalla",
-    },
-    {
-      key: "HELP",
-      en: "List all the commands",
-      es: "Lista todos los comandos",
-    },
-  
-    {
-      key: "EXIT_ATTEMPT_0",
-      en: "Could be a typo, please check your typing",
-      es: "Pudo ser un error de tipeo, por favor, mira lo que tipeas",
-    },
-    {
-      key: "EXIT_ATTEMPT_1",
-      en: "Are you sure? There are a lot of fancy commands to run :)",
-      es: "Estás seguro/a? Hay comandos muy buenos para correr :)",
-    },
-    {
-      key: "EXIT_ATTEMPT_2",
-      en: "Okey, you ask for it...",
-      es: "Okey, vos lo pediste . . .",
-    },
-    {
-      key: "RESUME_LOADED",
-      en: "The resume is loaded in the next tab.",
-      es: "El CV está cargado en la pestaña siguiente.",
-    },
-    {
-      key: "GO_BACK",
-      en: "Click here to go back.",
-      es: "Haz click aqui para volver atras.",
-    },
-  
-  
-  
-  ];
-  
-  export const translate = (key: string) => {
-    const language = getLanguage();
-    return translations.filter(
-      (fullTranslation: any) => fullTranslation.key === key
-    )[0][language];
-  };
-  
-  export const getLanguage = () => 'en'
-  
-  export const descriptions = {
-    show: translate("SHOW"),
-    clear: translate("CLEAR"),
-    help: translate("HELP"),
-    back: translate("BACK_COMMAND"),
-    macos: translate("MACOS_COMMAND"),
-    windows: translate("WINDOWS_COMMAND"),
-    linux: translate("LINUX_COMMAND"),
-    basic: translate("BASIC_COMMAND"),
-    jobs: translate("JOBS_COMMAND"),
-    history: translate("HISTORY_COMMAND"),
-    techStack: translate("TECHSTACK_COMMAND"),
-    resume: translate("RESUME_COMMAND"),
-    exit: translate("EXIT_COMMAND"),
-    tail: translate("TAIL_COMMAND"),
-    top: translate("TOP_COMMAND"),
-    cat: translate("CAT_COMMAND"),
-    ls: translate("LS_COMMAND"),
-    cd: translate("CD_COMMAND"),
-    rm: translate("RM_COMMAND"),
-    cp: translate("CP_COMMAND"),
-    mv: translate("MV_COMMAND"),
-  };
-  
+  },
+
+  {
+    key: "LS",
+    en: "Mmm what are you trying to do?",
+    es: "Mmm qué estás tratando de hacer ?",
+  },
+  {
+    key: "CD",
+    en: "You should do that on your OWN terminal",
+    es: "Podés intentar eso en tu propia terminal :)",
+  },
+  {
+    key: "RM",
+    en: "Deleting software... JK you can't run that here :)",
+    es: "Eliminando software... Chiste, no podés correr ese comando acá :)",
+  },
+  { key: "CP", en: "Nothing here to copy", es: "Nada para copiar aquí" },
+  {
+    key: "TAIL",
+    en: "Please, don't",
+    es: "Por favor, no.",
+  },
+  { key: "CAT", en: "Sure, here you go: 😺", es: "Ahi va: 😺" },
+  { key: "MV", en: "Nothing here to move", es: "Nada para mover aquí" },
+  {
+    key: "TOP",
+    en: "The only important process here is my the recruitment process :)",
+    es: "El único proceso importante aquí es mi proceso de contratación :)",
+  },
+
+  {
+    key: "BACK_COMMAND",
+    en: "Go to main screen",
+    es: "Volver a la pantalla principal",
+  },
+  {
+    key: "MACOS_COMMAND",
+    en: "Go to macos terminal",
+    es: "Ir a una terminal de macos",
+  },
+  {
+    key: "WINDOWS_COMMAND",
+    en: "Go to windows terminal",
+    es: "Ir a una terminal de windows",
+  },
+  {
+    key: "LINUX_COMMAND",
+    en: "Go to linux terminal",
+    es: "Ir a una terminal de linux",
+  },
+  {
+    key: "BASIC_COMMAND",
+    en: "Displays my basic information",
+    es: "Mustra mi inforamción básica",
+  },
+  {
+    key: "JOBS_COMMAND",
+    en: "Displays my profesional carreer information",
+    es: "Mustra mi carrera profesional",
+  },
+  {
+    key: "HISTORY_COMMAND",
+    en: "Get to know me a little bit better :)",
+    es: "Conozcanme un poco mejor :)",
+  },
+  { key: "TECHSTACK_COMMAND", en: "My tech stack", es: "Mi stack tecnologico" },
+  {
+    key: "RESUME_COMMAND",
+    en: "Download my resume (CV)",
+    es: "Descargar mi CV",
+  },
+  {
+    key: "EXIT_COMMAND",
+    en: "You had your fun, now it's time to go",
+    es: "Ya te divertiste, ahora es tiempo que te vayas",
+  },
+  {
+    key: "HELP_COMMAND",
+    en: "Type help to get started",
+    es: "Escriba help y presione enter para comenzar",
+  },
+
+  {
+    key: "TAIL_COMMAND",
+    en: "Outputs the last part of files",
+    es: "Muestra la última parte de los archivos",
+  },
+  {
+    key: "TOP_COMMAND",
+    en: "Print system usage and top resource hogs",
+    es: "Uso del sistema de impresión y acaparadores de recursos superiores",
+  },
+  {
+    key: "CAT_COMMAND",
+    en: "Reads data from the file and gives their content as output",
+    es: "Lee los datos del archivo y da su contenido como salida",
+  },
+  {
+    key: "LS_COMMAND",
+    en: "Lists files in current directory",
+    es: "Enumera archivos en el directorio actual",
+  },
+  { key: "CD_COMMAND", en: "Change directory", es: "Cambio de directorio" },
+  {
+    key: "RM_COMMAND",
+    en: "Remove or delete file",
+    es: "Eliminar o eliminar archivo",
+  },
+  { key: "CP_COMMAND", en: "Copy files", es: "Copiar archivos" },
+  {
+    key: "MV_COMMAND",
+    en: "Move or rename files",
+    es: "Mover o cambiar el nombre de archivos",
+  },
+
+  {
+    key: "SHOW",
+    en: "	Show the msg",
+    es: "Muestra el mensaje",
+  },
+  {
+    key: "CLEAR",
+    en: "Clear the screen",
+    es: "Limpia la pantalla",
+  },
+  {
+    key: "HELP",
+    en: "List all the commands",
+    es: "Lista todos los comandos",
+  },
+
+  {
+    key: "EXIT_ATTEMPT_0",
+    en: "Could be a typo, please check your typing",
+    es: "Pudo ser un error de tipeo, por favor, mira lo que tipeas",
+  },
+  {
+    key: "EXIT_ATTEMPT_1",
+    en: "Are you sure? There are a lot of fancy commands to run :)",
+    es: "Estás seguro/a? Hay comandos muy buenos para correr :)",
+  },
+  {
+    key: "EXIT_ATTEMPT_2",
+    en: "Okey, you ask for it...",
+    es: "Okey, vos lo pediste . . .",
+  },
+  {
+    key: "RESUME_LOADED",
+    en: "The resume is loaded in the next tab.",
+    es: "El CV está cargado en la pestaña siguiente.",
+  },
+  {
+    key: "GO_BACK",
+    en: "Click here to go back.",
+    es: "Haz click aqui para volver atras.",
+  },
+
+
+
+];
+
+export const translate = (key: string) => {
+  const language = getLanguage();
+  return translations.filter(
+    /* eslint-disable  @typescript-eslint/no-explicit-any */
+    (fullTranslation: any): boolean => fullTranslation.key === key
+  )[0][language];
+};
+
+export const getLanguage = () => 'en'
+
+export const descriptions = {
+  show: translate("SHOW"),
+  clear: translate("CLEAR"),
+  help: translate("HELP"),
+  back: translate("BACK_COMMAND"),
+  macos: translate("MACOS_COMMAND"),
+  windows: translate("WINDOWS_COMMAND"),
+  linux: translate("LINUX_COMMAND"),
+  basic: translate("BASIC_COMMAND"),
+  jobs: translate("JOBS_COMMAND"),
+  history: translate("HISTORY_COMMAND"),
+  techStack: translate("TECHSTACK_COMMAND"),
+  resume: translate("RESUME_COMMAND"),
+  exit: translate("EXIT_COMMAND"),
+  tail: translate("TAIL_COMMAND"),
+  top: translate("TOP_COMMAND"),
+  cat: translate("CAT_COMMAND"),
+  ls: translate("LS_COMMAND"),
+  cd: translate("CD_COMMAND"),
+  rm: translate("RM_COMMAND"),
+  cp: translate("CP_COMMAND"),
+  mv: translate("MV_COMMAND"),
+};

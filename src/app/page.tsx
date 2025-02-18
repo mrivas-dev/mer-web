@@ -1,22 +1,7 @@
 "use client";
 
 import { getLanguage } from "@/utils/translations";
-import Link from "next/link";
 import { useEffect, useState } from "react";
-
-/*
-Booting up
-
-DONE
-
-Detecting OS
-
-OS Detected MacOS
-
-Detecting Language
-
-Language Detected Spanish
-*/
 
 export default function Home() {
   const [loadingState, setLoadingState] = useState<number>(0);
@@ -102,6 +87,7 @@ export default function Home() {
       }
     }, 5000);
   };
+  /* eslint-disable  react-hooks/exhaustive-deps */
   useEffect(() => {
     bootUp();
     detectSO();
